@@ -1,4 +1,4 @@
-Installing the minimum required XCode command line tools to run Git
+# Installing the minimum required XCode command line tools to run Git
 
 ## The "invalid active developer path" error
 
@@ -9,6 +9,8 @@ $ git
 
 xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
 ```
+
+## How to install XCode command line tools without the rest of XCode
 
 You can install XCode but it's a huge download. You can save about 80% of the disk space by installing the command line tools alone. 
 Here's how.
